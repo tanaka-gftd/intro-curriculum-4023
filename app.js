@@ -25,8 +25,8 @@ User.sync().then(async () => {
 });
 
 const GitHubStrategy = require('passport-github2').Strategy;
-const GITHUB_CLIENT_ID = process.env.GITHUB_CLIENT_ID || '2f831cb3d4aac02393aa';
-const GITHUB_CLIENT_SECRET = process.env.GITHUB_CLIENT_SECRET || '9fbc340ac0175123695d2dedfbdf5a78df3b8067';
+const GITHUB_CLIENT_ID = process.env.GITHUB_CLIENT_ID || 'ec91ce81d717d8a02987';
+const GITHUB_CLIENT_SECRET = process.env.GITHUB_CLIENT_SECRET || '82751cb2f47928fb5de3647bfc11ec68ac210a4c';
 
 passport.serializeUser(function (user, done) {
   done(null, user);
